@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <ConsolLogging>        
+        <Logging> Enable</Logging> <!-- Enable/Disable -->
+        <Format> Date|Message|Level </Format>  <!-- e.g.  Date|Msge|Level  -->
+        <LogLevel>
+            <Debug> All </Debug> <!-- Debug|Info or Error|Warning or All etc -->
+            <Warning> Error|Warning </Warning> <!-- Debug|Info or Error|Warning or All etc -->
+            <Error> Error </Error> <!-- Debug|Info or Error|Warning or All etc -->
+            <Info> Info </Info> <!-- Debug|Info or Error|Warning or All etc -->
+        </LogLevel>        
+    </ConsolLogging>
+    
+    <FileLogging>
+        
+        <Logging> Disable </Logging> <!-- Enable/Disable -->
+        <FileName> Log.txt </FileName>
+        <FileDir> C:\\Users\\Fouad\\Desktop </FileDir>
+        <LogRotation> False </LogRotation> <!-- True or False -->
+        <FullCondition> 100 </FullCondition> <!-- Represents the number of lines -->
+        <Format> Date|Message|Level </Format>  <!-- e.g.  Date|Message|Level  -->
+        <LogLevel>
+            <Debug> All </Debug> <!-- Debug|Info or Error|Warning or All etc -->
+            <Warning> Error|Warning </Warning> <!-- Debug|Info or Error|Warning or All etc -->
+            <Error> Error|Warning </Error> <!-- Debug|Info or Error|Warning or All etc -->
+            <Info> Debug|Info </Info> <!-- Debug|Info or Error|Warning or All etc -->
+        </LogLevel>
+    </FileLogging>
+</root>
